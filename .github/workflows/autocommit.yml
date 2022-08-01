@@ -25,20 +25,20 @@ jobs:
           
       - name: Commit changes
         run: |
-          git config --local user.email "omololevy@gmail.com"
+          git config --local user.email "cotechlevy@gmail.com"
           git config --local user.name "omololevy"
           git add -A
           
-          arr[0]="Levy-bot: don't forget to learn machine learning"
-          arr[1]="Levy-bot: successful commit"
-          arr[2]="Levy-bot: successful commit"
-          arr[3]="Levy-bot: successful commit"
-          arr[4]="Levy-bot: successful commit"
-          arr[5]="Levy-bot: successful commit"
-          arr[6]="Levy-bot: don't forget to learn machine learning"
-          arr[7]="Levy-bot: successful commit"
-          arr[8]="Levy-bot: successful commit"
-          arr[9]="Levy-bot: successful commit"
+          arr[0]="Fetch the upstream of Mlearning"
+          arr[1]="Change the content of the env file"
+          arr[2]="Update the content of the .gitignore sile"
+          arr[3]="Redo the scheduling automation"
+          arr[4]="Remove the cache files from the prog"
+          arr[5]="Add the navigation functionality"
+          arr[6]="Remove the learn machine learning"
+          arr[7]="Add the image for styling"
+          arr[8]="Adjust the deep learning algo"
+          arr[9]="Minimize the runtime"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
